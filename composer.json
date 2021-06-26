@@ -1,0 +1,41 @@
+{
+  "name": "justoverclock/flarum-ext-skypemoji",
+  "description": "Add Skype emoji to flarum",
+  "keywords": [
+    "skype emoji"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "require": {
+    "flarum/core": "^1.0.0"
+  },
+  "require-dev": {
+    "flarum/testing": "^1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Marco Colia",
+      "email": "info@flarum.it",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Justoverclock\\SkypeMoji\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "SkypeMoji",
+      "category": "",
+      "icon": {
+        "name": "",
+        "backgroundColor": "",
+        "color": ""
+      }
+    },
+    "flagrow": {
+      "discuss": ""
+    }
+  }
+}
